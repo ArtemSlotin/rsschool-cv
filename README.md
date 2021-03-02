@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://artemslotin.github.io/rsschool-cv/cv
+https://artemslotin.github.io/rsschool-cv/
