@@ -15,7 +15,7 @@
   >    - perseverance
   >    - energetic nature
 
-  `My last completed task    `
+  `My last completed task`
 ``` js
 function addNumbers(object) {
   const result = [];
