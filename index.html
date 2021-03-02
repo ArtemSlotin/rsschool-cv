@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My resume</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- main container-->
+  <div class="wrapper">
+   <!-- about me container-->
+    <aside class="sidebar">
+      <img class="my-photo" src="./img/IMG_20191020_212913.jpg" alt="My photo">
+         <!--contacts container-->
+            <div class="contacts-container">
+              <h3 class="contacts-title">Contacts</h3>
+              <div>
+              <span class="contacts-link-type"> C:</span> 
+              <a class="contacts-link" href="tel:+37060430216">+370 604 302 16</a> 
+              </div>
+              <div>
+              <span class="contacts-link-type"> E:</span>
+              <a class="contacts-link" href="mailto:orient.ck@gmail.com">orient.ck@gmail.com</a>
+              </div> 
+            </div>
+        
+          <!--Tech skills container-->
+          <div class="tech-skills-container">
+          <h3 class="tech-skills-title">Tech Skills</h3>
+          <ul>
+            <li class="tech-skills-item">
+             <span class="tech-skills-text">HTML5</span>
+            </li>
+            <li class="tech-skills-item">
+             <span class="tech-skills-text">CSS3</span>
+            </li>
+            <li class="tech-skills-item">
+             <span class="tech-skills-text">GIT</span>
+            </li>
+            <li class="tech-skills-item">
+            <span class="tech-skills-text">WebPack</span>
+            </li>
+            <li class="tech-skills-item">
+             <span class="tech-skills-text">JavaScript</span>
+            </li>
+            <li class="tech-skills-item">
+             <span class="tech-skills-text">React.js</span>
+            </li>
+            <li class="tech-skills-item">
+             <span class="tech-skills-text">Node.js</span>
+            </li>
+          </ul>
+          </div>
+
+          <!--Soft skills conteiner-->
+          <div class="soft-skills-container">
+          <h3 class="soft-skills-title"> My good qualities:</h3>
+          <ul>
+            <li class="soft-skills-item">
+            <span class="soft-skills-text">Ability to learn quickly and learn new things</span>
+            </li>
+            <li class="soft-skills-item">
+            <span class="soft-skills-text">Perseverance</span>
+            </li>
+            <li class="soft-skills-item">
+            <span class="soft-skills-text">Energetic nature</span>
+            </li>
+            <li class="soft-skills-item">
+            <span class="soft-skills-text">Teamwork</span>
+            </li>
+          </ul>
+          </div>
+    </aside>
+
+  <div class="about-me">  
+    <!--about me main info-->
+    <div class="info-container">
+        <h2 class="profession">On the way to become Front-End Developer</h2>
+        <h1 class="name">Artem Slotin</h1>
+        <p class="description">Hello. My current profession is a kitchener. During the pandemic, priorities in life changed. 
+          It's been more than 3 months of lockdown and I have time to study. But I want to change my profession. 
+          I like working with a computer, solving problems, 
+          I like to see the amount of work I do. It is always interesting to discover something new.</p>
+    </div>
+       
+    <!--progect container-->
+    <div class="projects-container">
+      <h3 class="about-me-title">My last code:</h3>
+        <div class="code-example">
+          <pre>
+          function addNumbers(object) {
+            const result = [];
+            
+            for (num in object) {
+              const item = object[num];
+              if(typeof(item) == 'number') {
+                result.push(item);
+              }
+            }
+            const sum = result.reduce((a, b) => a + b);
+            return sum;
+          };
+            
+          addNumbers({
+            one: 1,
+            two: '2',
+            three: 3,
+          });
+          </pre>
+        </div>
+        <hr>
+    </div>
+    
+    <div>
+      <h3 class="about-me-title">About study</h3>
+
+      <div>
+        <h5 class="profession-title">Javascript Basics<span class="profession-company"> Mate Academy</span></h5>
+        <span class="profession-period">
+          January 2021 - February 2021 <span class="profession-divider">|</span> Online (Ukraine)
+        </span> 
+        <ul class="profession-duties">
+          <li>I pass the <i>Javascript Basics</i> course at the <a class="projects-link" href="http://mate.academy/learn">Mate Academy</a></li>
+          <li>I start to read the book <a class="projects-link" href="https://learn.javascript.ru/">	&#34;Современный учебник JavaScript	&#34;</a></li>
+        </ul>
+      </div>
+
+    
+      <div>
+        <h5 class="profession-title">Full JavaScript + React<span class="profession-company"> udemy.com</span></h5>
+        <span class="profession-period">
+          November 2020 - Until now <span class="profession-divider">|</span> Online</span> 
+        <ul class="profession-duties">
+          <li>Now I continue <span class="projects-link">Полный курс по JavaScript + React - с нуля до результата</span> from <i>Ivan Petrychenko</i> in <a class="projects-link" href="http://www.udemy.com/">udemy.com</a></li>
+        </ul>
+      </div>
+      
+     <!--language-->
+      <h4 class="management">Languages:</h4> 
+  </div>
+  <ul>
+    <li>Ukrainian - <i><b class="languages">Native</b></i></li></li>
+    <li>Russian - <i><b class="languages">Native (2nd after Ukrainian)</b></i></li></li>
+    <li>English - <i><b class="languages">Pre-Intermediate(A2)</b></i></li>
+    <li>Lithianian - <i><b class="languages">(B2)</b></i></li>
+  </ul> 
+</div>
+
+</body>
+</html>
