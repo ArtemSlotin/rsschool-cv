@@ -145,11 +145,11 @@ body {
     }
 
 .profession {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 24px;
     color: rgb(117, 124, 117);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .name {
