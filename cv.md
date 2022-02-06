@@ -42,3 +42,4 @@ In 2021 I took part a course from RSschool LT FrontEnd, but passed only 60%.
 Now I start **Полный курс по JavaScript + React - с нуля до результата** from `Ivan Petrychenko` in [udemy.com](https://www.udemy.com/).
 
 My English level - **`Pre-Intermediate`**.
+Lithuanian level - **`Pre-Intermediate`**.
