@@ -12,9 +12,9 @@
   >I like to see the amount of work I do. It is always interesting to discover something new.
   >  
   >  My good qualities:
-  >    - ability to learn quickly and learn new things
-  >    - perseverance
-  >    - energetic nature
+  >    - ability to learn quickly and learn new things :neckbeard:
+  >    - perseverance :smile:
+  >    - energetic nature :tada:
 
   `My last completed task`
 ``` js
@@ -44,4 +44,4 @@ Now I start **Полный курс по JavaScript + React - с нуля до �
 
 
 My English level - **`Pre-Intermediate`**.
->Lithuanian level - **`Pre-Intermediate`**.
+Lithuanian level - **`Pre-Intermediate`**.
